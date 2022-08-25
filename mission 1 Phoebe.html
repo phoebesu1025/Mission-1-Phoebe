@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Phobe's Photo Collection</title>
+  <link rel="stylesheet" href="mission1.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body> 
+  
+
+
+  <header>
+    <div class="headbar">
+      <div class="dropdown">
+        <button class="dropbtn">
+          <i class="fa fa-bars fa-2x" id="icon"></i>
+        </button>
+        <div class="dropdown-content">
+          <div id="about">About</div>
+          <div id="collection">Collection</div>
+          <div class="location">
+            <p>Auckland</p>
+            <p>Wellington</p>
+            <p>Somewhere in NZ</p>
+          </div>
+          <div id="contact">Contact Me</div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="backgroundphoto">
+  <section class="home">
+    <div class="introduction">
+      <div class="introduction-para">
+        <h1>Hello! Welcome to my page.</h1>
+        <p>Hi, this is Phoebe~~<br>I would like to share my photo collection here. :)</p>
+        <p>I would upload more photo in the future!</p>
+        <p id="hoverme">Hover Here :D</p>
+      </div>
+    </div>
+
+    <div class="pic-container">
+      <img class="me-pic" src="me.png">
+    </div>
+</div>
+    <!-------------------------------------------!-->
+    <div class="photo-grid">
+      <div><img class="auckland" src="image/city.jpg">Auckland</div>
+
+      <div><img class="wellington" src="image/welly8.jpg">Wellington</div>
+
+      <div><img class="othersinNz" src="image/Tongariro.JPG">SomewhereNZ</div>
+    </div>
+
+  </section>
+
+  <!--  .......................................................  -->
+  <footer>
+    <div class="otherlink-container">
+      <div>More about Me</div>
+      <div class="otherlink-icons">
+        <a href="https://www.facebook.com/profile.php?id=100005733000599"><i class="fa fa-facebook-square"
+            aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/channel/UCfZf-tGuPXyd8iW2KtX6lKg"><i class="fa fa-youtube-play"
+            aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/phoebesu1025/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/phoebe-su-4a618813a/"><i class="fa fa-linkedin-square"
+            aria-hidden="true"></i></a>
+      </div>
+      <div class="subscribe">subscribe
+        <p>Sign up with your email address to receive news and updates!
+        </p>
+        <input id="subscribe-email" type="text" placeholder="email@gmail.com" action="mailto:phoebesu85@yahoo.com.tw"
+          method="post">
+        <button class="signup-button">Sign up</button>
+      </div>
+    </div>
+
+    <!---form------------------------>
+    <div class="contact-me">
+      <fieldset>
+        <legend>Contact me</legend>
+        <p>Got an enquiry, suggestion or feedback? Please use this online form to get in touch with us. Thank you!
+        </p>
+        <form action="mailto:phoebesu85@yahoo.com.tw" method="post">
+          <label>Name*</label>
+          <input type="text" id="name" name="name" required>
+          <br>
+          <label>Email*</label>
+          <input type="email" id="email" name="email" required>
+          <br>
+          <label>Phone Number</label>
+          <input type="text" id="phone" name="phone">
+          <br>
+          <br>
+          <hr>
+          <textarea placeholder="Type Message here...."></textarea>
+          <button id="submit-button">Submit</button>
+        </form>
+      </fieldset>
+    </div>
+  </footer>
+
+  <!---------------------->
+  <footer2>
+    <div class="createby">Create by. PhoebeSU<br>2022.</div>
+
+  </footer2>
+</body>
+
+</html>
